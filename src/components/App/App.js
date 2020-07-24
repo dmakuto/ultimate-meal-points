@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import BusinessList from '../BusinessList/BusinessList';
 import SearchBar from '../SearchBar/SearchBar';
+import Footer from '../Footer/Footer';
 import Yelp from '../../util/Yelp';
 
 
@@ -26,9 +27,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Ultimate Meal Points</h1>
+        <h1>Bite Points</h1>
         < SearchBar searchYelp={this.searchYelp}/>
-        < BusinessList businesses = {this.state.businesses} /> 
+        < BusinessList businesses = {this.state.businesses} />
+        < Footer/> 
       </div>
     );
   }

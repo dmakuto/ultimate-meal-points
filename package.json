@@ -1,5 +1,6 @@
 {
-  "name": "ultimate-meal-points",
+  "name": "bitepoints",
+  "homepage": "https://bitepoint.link",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
